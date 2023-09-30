@@ -1,0 +1,40 @@
+body{
+    height: 600px;
+    width:600px;
+   
+}
+/*here is where the list of things to do go*/
+.list{
+    display:flex;
+    margin:1rem;
+}
+/*this is the styling for the add button*/
+.box{
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+}
+.add-button{
+    display: flex;
+    margin-top: 360px;
+    margin-left:400px;
+    justify-content: center;
+    border-radius: 50%;
+}
+.add-button button{
+    border: none;
+    background-color: white;
+    width:50px;
+    height:50px;
+    border:4px solid red;
+    border-radius: 50%;
+
+}
+.todo-list-input{
+    display:none;
+    flex-direction: column;
+}
+.submit{
+    width: 50px;
+    height:30px;
+}
